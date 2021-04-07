@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "prettier",
+    "airbnb/hooks",
+    "airbnb-typescript"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+
+    "prettier/prettier": [
+      "error"
+    ],
+    "object-curly-spacing": 1,
+    "jsx-a11y/anchor-is-valid ": 0,
+    "react/require-default-props": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/react-in-jsx-scope": 0
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true
+  }
+}

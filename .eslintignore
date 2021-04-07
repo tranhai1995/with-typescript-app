@@ -1,0 +1,6 @@
+/.next/*
+/node_modules/*
+/out/*
+/public/*
+lint-staged.config.js
+next.config.js
